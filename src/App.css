@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+  background-size: cover;
+  width: auto;
+  background-image: url(https://imagenes.universia.net/gc/net/images/educacion/6/6-/6-r/6-razones-para-estudiar-veterinaria.jpg);
+
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
