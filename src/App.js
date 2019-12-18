@@ -1,17 +1,33 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import './bootstrap.min.css';
+import Header from './components/Header';
+import NuevaCita from './components/NuevaCita';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <h3>hola como estas?</h3>
-      <h4>jejejejej</h4>
+class App extends Component {
+  state = {
+
+  }
+
+  render () {
+
+    return ( 
+      <div className="container">
+        <Header
+        titulo = 'Reserva médica veterinaria'
         
-        
-      </header>
-    </div>
-  );
+         />
+
+         <div className="row">
+           <div className="col-md-10 mx-auto">
+             <NuevaCita />
+           </div>
+         </div>
+
+      </div>
+    );
+
+  }
 }
 
 export default App;
+
