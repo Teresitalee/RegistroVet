@@ -1,48 +1,76 @@
 import React, { Component } from 'react';
 
 class NuevaCita extends Component {
-    state = {  }
+    state = { 
+        cita : {
+            mascota : '',
+            propietario : '',
+            fecha :'',
+            hora : '',
+            sintomas : ''
+          }
+     }
+
+     handlechange = e => {
+        // colocar lo que el usuario esta escribiendo en el state y sobreescribirlo
+        this.setState ({
+            cita : {
+            // crear copia del state original
+            ...this.state.cita,
+            
+            // maper todo el objeto de CITA yo tomara el input por su nombre y valor
+            [e.target.name] : e.target.value
+            }
+        })
+
+     }
 
 
     render() { 
         return (
-            <div className="card mt-5 py-5">
+            <div className="card mt-4 py-4 mb-5">
                 <div className="card-body">
-                    <h3 className="card-title text-center mb-5">
-                        Ingreso Datos del Paciente
-                    </h3>
+                    <h5 className="card-title text-center mb-5 text-bold">
+                        Ficha de Ingreso Mascota
+                    </h5>
                     <form>
-                        <div className="from-group row">
+                        <div className="from-group row mx-auto">
                             <label className="col-sm-4 col-lg-3 col-form-label">Nombre Mascota</label>
                             <div className="col-sm-8 col-lg-8">
                                 <input 
                                 type="text"
                                 className="form-control"
-                                placeholder="Nombre mascota"
+                                placeholder="Ingrese un nombre"
                                 name="mascota"
+                                onChange = {this.handlechange}
+                                value = {this.state.cita.mascota}
                                 />
                             </div>
                         </div>
 
-                        <div className="from-group row mt-3">
+                        <div className="from-group row mt-3 mx-auto">
                             <label className="col-sm-4 col-lg-3 col-form-label">Nombre Dueño</label>
                             <div className="col-sm-8 col-lg-8">
                                 <input 
                                 type="text"
                                 className="form-control"
-                                placeholder="Nombre Dueño mascota"
+                                placeholder="Ingrese nombre completo"
                                 name="propietario"
+                                onChange = {this.handlechange}
+                                value = {this.state.cita.propietario}
                                 />
                             </div>
                         </div>
 
-                        <div className="from-group row mt-3">
+                        <div className="from-group row mt-3 mx-auto">
                             <label className="col-sm-4 col-lg-3 col-form-label">Fecha</label>
                             <div className="col-sm-6 col-lg-3">
                                 <input 
                                 type="date"
                                 className="form-control"
                                 name="fecha"
+                                onChange = {this.handlechange}
+                                value = {this.state.cita.fecha}
                                 />
                             </div>
 
@@ -52,17 +80,21 @@ class NuevaCita extends Component {
                                 type="time"
                                 className="form-control"
                                 name="hora"
+                                onChange = {this.handlechange}
+                                value = {this.state.cita.hora}
                                 />
                             </div>
                        </div>
 
-                       <div className="from-group row mt-3">
+                       <div className="from-group row mt-3 mx-auto">
                             <label className="col-sm-4 col-lg-3 col-form-label">Síntomas</label>
                             <div className="col-sm-6 col-lg-8">
                                 <textarea 
                                 className="form-control"
                                 name="sintomas"
                                 placeholder="sintomas o molestar de la mascota"
+                                onChange = {this.handlechange}
+                                value = {this.state.cita.sintomas}
                                 >
                                 </textarea>
                             </div>

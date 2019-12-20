@@ -5,6 +5,7 @@ import NuevaCita from './components/NuevaCita';
 
 class App extends Component {
   state = {
+    
 
   }
 
@@ -18,7 +19,7 @@ class App extends Component {
          />
 
          <div className="row">
-           <div className="col-md-10 mx-auto">
+           <div className="col-md-8 mx-auto">
              <NuevaCita />
            </div>
          </div>
