@@ -8,7 +8,8 @@ class NuevaCita extends Component {
             fecha :'',
             hora : '',
             sintomas : ''
-          }
+          },
+          error : false
      }
 
      handlechange = e => {
@@ -25,6 +26,25 @@ class NuevaCita extends Component {
 
      }
 
+     // envio de datos SUBMIT desde el boton agregar cita
+
+     handleSubmit = e => {
+         e.preventDefault();
+
+         //extraer los valores del state
+         const { mascota, propietario, fecha, hora, sintomas } = this.state.cita;
+
+         // validacion de todos los campos de los inputs
+         if (mascota === '' || propietario === '' || fecha === '' || hora === '' || sintomas === '') {
+             this.setState({
+                 error:true
+             });
+
+             //detener la ejecucion
+             return ;
+         }
+     }
+
 
     render() { 
         return (
@@ -33,7 +53,9 @@ class NuevaCita extends Component {
                     <h5 className="card-title text-center mb-5 text-bold">
                         Ficha de Ingreso Mascota
                     </h5>
-                    <form>
+                    <form
+                    onSubmit={this.handleSubmit}
+                    >
                         <div className="from-group row mx-auto">
                             <label className="col-sm-4 col-lg-3 col-form-label">Nombre Mascota</label>
                             <div className="col-sm-8 col-lg-8">
