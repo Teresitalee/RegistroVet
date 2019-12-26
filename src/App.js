@@ -5,10 +5,20 @@ import NuevaCita from './components/NuevaCita';
 
 class App extends Component {
   state = {
-    
-
+    citas : [] // arreglo de objetos
   }
 
+  crearNuevaCita = datos => {
+    //copiar el state actual
+    const citas = [...this.state.citas , datos];
+
+    //agregar el nuevo state
+    this.setState({
+      citas
+    })
+  }
+
+  
   render () {
 
     return ( 
@@ -20,7 +30,9 @@ class App extends Component {
 
          <div className="row">
            <div className="col-md-8 mx-auto">
-             <NuevaCita />
+             <NuevaCita
+             crearNuevaCita={this.crearNuevaCita}
+              />
            </div>
          </div>
 
