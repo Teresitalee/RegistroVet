@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import uuid from 'uuid';
 
+const stateInicial = {
+    cita : {
+        mascota : '',
+        propietario : '',
+        fecha :'',
+        hora : '',
+        sintomas : ''
+      },
+      error : false
+
+}
+
+
 class NuevaCita extends Component {
-    state = { 
-        cita : {
-            mascota : '',
-            propietario : '',
-            fecha :'',
-            hora : '',
-            sintomas : ''
-          },
-          error : false
-     }
+    state = { ...stateInicial }
 
      handlechange = e => {
         // colocar lo que el usuario esta escribiendo en el state y sobreescribirlo
@@ -51,6 +55,11 @@ class NuevaCita extends Component {
 
          //agregar la cita al state
          this.props.crearNuevaCita(newCita)
+
+         // colocar el stateInicial
+         this.setState({
+             ...stateInicial
+         })
      }
 
 
@@ -66,8 +75,10 @@ class NuevaCita extends Component {
                     <h5 className="card-title text-center mb-5 text-bold">
                         Ficha de Ingreso Mascota
                     </h5>
-                    
-                    { error ? <div className="alert alert-danger mt-2 mb-5 text-center">Todos los campos son obligatorios</div> : null }
+
+                    { error ? <div className="alert alert-warning mt-2 mb-5 text-center">
+                        Todos los campos son obligatorios</div> : null }
+
                     <form
                     onSubmit={this.handleSubmit}
                     >
