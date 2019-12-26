@@ -55,12 +55,19 @@ class NuevaCita extends Component {
 
 
     render() { 
+
+        //extraer el valor de state de ERROR
+        const { error } = this.state;
+
+
         return (
             <div className="card mt-4 py-4 mb-5">
                 <div className="card-body">
                     <h5 className="card-title text-center mb-5 text-bold">
                         Ficha de Ingreso Mascota
                     </h5>
+                    
+                    { error ? <div className="alert alert-danger mt-2 mb-5 text-center">Todos los campos son obligatorios</div> : null }
                     <form
                     onSubmit={this.handleSubmit}
                     >
