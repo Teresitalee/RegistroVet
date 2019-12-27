@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import uuid from 'uuid';
+import propTypes from 'prop-types';
+
 
 const stateInicial = {
     cita : {
@@ -154,6 +156,11 @@ class NuevaCita extends Component {
             </div>
           );
     }
+}
+
+//documentado codigo
+NuevaCita.propTypes = {
+    crearNuevaCita : propTypes.func.isRequired
 }
  
 export default NuevaCita;
