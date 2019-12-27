@@ -1,8 +1,9 @@
 {
-  "homepage": "https://github.com/Teresitalee/RegistroVet",
+  
   "name": "registrovet",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Teresitalee/RegistroVet",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.3",
