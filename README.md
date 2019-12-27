@@ -12,5 +12,5 @@ la ficha de datos previos es esencial al momento de examinar a la mascota. este 
 - Eventos
 
 ### `¿ Quieres ver la performance de este proyecto ?`
-url......
+### `https://teresitalee.github.io/RegistroVet/`
 
