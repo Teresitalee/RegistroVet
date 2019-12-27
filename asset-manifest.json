@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Teresitalee/RegistroVet/static/css/main.e89c882f.chunk.css",
-    "main.js": "/Teresitalee/RegistroVet/static/js/main.40179d09.chunk.js",
-    "main.js.map": "/Teresitalee/RegistroVet/static/js/main.40179d09.chunk.js.map",
-    "runtime-main.js": "/Teresitalee/RegistroVet/static/js/runtime-main.9d65f421.js",
-    "runtime-main.js.map": "/Teresitalee/RegistroVet/static/js/runtime-main.9d65f421.js.map",
-    "static/css/2.64a99b10.chunk.css": "/Teresitalee/RegistroVet/static/css/2.64a99b10.chunk.css",
-    "static/js/2.84c66f70.chunk.js": "/Teresitalee/RegistroVet/static/js/2.84c66f70.chunk.js",
-    "static/js/2.84c66f70.chunk.js.map": "/Teresitalee/RegistroVet/static/js/2.84c66f70.chunk.js.map",
-    "index.html": "/Teresitalee/RegistroVet/index.html",
-    "precache-manifest.f67a363eebb05086026d4007b45f1298.js": "/Teresitalee/RegistroVet/precache-manifest.f67a363eebb05086026d4007b45f1298.js",
-    "service-worker.js": "/Teresitalee/RegistroVet/service-worker.js",
-    "static/css/2.64a99b10.chunk.css.map": "/Teresitalee/RegistroVet/static/css/2.64a99b10.chunk.css.map",
-    "static/css/main.e89c882f.chunk.css.map": "/Teresitalee/RegistroVet/static/css/main.e89c882f.chunk.css.map",
-    "static/js/2.84c66f70.chunk.js.LICENSE": "/Teresitalee/RegistroVet/static/js/2.84c66f70.chunk.js.LICENSE"
+    "main.css": "/RegistroVet/static/css/main.e89c882f.chunk.css",
+    "main.js": "/RegistroVet/static/js/main.9e428622.chunk.js",
+    "main.js.map": "/RegistroVet/static/js/main.9e428622.chunk.js.map",
+    "runtime-main.js": "/RegistroVet/static/js/runtime-main.981d12db.js",
+    "runtime-main.js.map": "/RegistroVet/static/js/runtime-main.981d12db.js.map",
+    "static/css/2.64a99b10.chunk.css": "/RegistroVet/static/css/2.64a99b10.chunk.css",
+    "static/js/2.84c66f70.chunk.js": "/RegistroVet/static/js/2.84c66f70.chunk.js",
+    "static/js/2.84c66f70.chunk.js.map": "/RegistroVet/static/js/2.84c66f70.chunk.js.map",
+    "index.html": "/RegistroVet/index.html",
+    "precache-manifest.db8d1ecc561d643fdb5c3c2c9550c8da.js": "/RegistroVet/precache-manifest.db8d1ecc561d643fdb5c3c2c9550c8da.js",
+    "service-worker.js": "/RegistroVet/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/RegistroVet/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.e89c882f.chunk.css.map": "/RegistroVet/static/css/main.e89c882f.chunk.css.map",
+    "static/js/2.84c66f70.chunk.js.LICENSE": "/RegistroVet/static/js/2.84c66f70.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d65f421.js",
+    "static/js/runtime-main.981d12db.js",
     "static/css/2.64a99b10.chunk.css",
     "static/js/2.84c66f70.chunk.js",
     "static/css/main.e89c882f.chunk.css",
-    "static/js/main.40179d09.chunk.js"
+    "static/js/main.9e428622.chunk.js"
   ]
 }
