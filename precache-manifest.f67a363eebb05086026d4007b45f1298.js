@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7a5c2d4a4f3bfc2bbfda7a8509cebf0",
+    "revision": "4a725467674140aa07914f244b39ac15",
     "url": "/Teresitalee/RegistroVet/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Teresitalee/RegistroVet/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "a969487a7e64cff41ee2",
-    "url": "/Teresitalee/RegistroVet/static/css/main.bd8cf3da.chunk.css"
+    "revision": "d3d9c5dc7826e52bbf0a",
+    "url": "/Teresitalee/RegistroVet/static/css/main.e89c882f.chunk.css"
   },
   {
     "revision": "e3acba594d8f1376a9a2",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Teresitalee/RegistroVet/static/js/2.84c66f70.chunk.js.LICENSE"
   },
   {
-    "revision": "a969487a7e64cff41ee2",
+    "revision": "d3d9c5dc7826e52bbf0a",
     "url": "/Teresitalee/RegistroVet/static/js/main.40179d09.chunk.js"
   },
   {

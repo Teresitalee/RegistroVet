@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Teresitalee/RegistroVet/static/css/main.bd8cf3da.chunk.css",
+    "main.css": "/Teresitalee/RegistroVet/static/css/main.e89c882f.chunk.css",
     "main.js": "/Teresitalee/RegistroVet/static/js/main.40179d09.chunk.js",
     "main.js.map": "/Teresitalee/RegistroVet/static/js/main.40179d09.chunk.js.map",
     "runtime-main.js": "/Teresitalee/RegistroVet/static/js/runtime-main.9d65f421.js",
@@ -9,17 +9,17 @@
     "static/js/2.84c66f70.chunk.js": "/Teresitalee/RegistroVet/static/js/2.84c66f70.chunk.js",
     "static/js/2.84c66f70.chunk.js.map": "/Teresitalee/RegistroVet/static/js/2.84c66f70.chunk.js.map",
     "index.html": "/Teresitalee/RegistroVet/index.html",
-    "precache-manifest.9bc5619f0fbafb27856fc823bb6b7d3c.js": "/Teresitalee/RegistroVet/precache-manifest.9bc5619f0fbafb27856fc823bb6b7d3c.js",
+    "precache-manifest.f67a363eebb05086026d4007b45f1298.js": "/Teresitalee/RegistroVet/precache-manifest.f67a363eebb05086026d4007b45f1298.js",
     "service-worker.js": "/Teresitalee/RegistroVet/service-worker.js",
     "static/css/2.64a99b10.chunk.css.map": "/Teresitalee/RegistroVet/static/css/2.64a99b10.chunk.css.map",
-    "static/css/main.bd8cf3da.chunk.css.map": "/Teresitalee/RegistroVet/static/css/main.bd8cf3da.chunk.css.map",
+    "static/css/main.e89c882f.chunk.css.map": "/Teresitalee/RegistroVet/static/css/main.e89c882f.chunk.css.map",
     "static/js/2.84c66f70.chunk.js.LICENSE": "/Teresitalee/RegistroVet/static/js/2.84c66f70.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.9d65f421.js",
     "static/css/2.64a99b10.chunk.css",
     "static/js/2.84c66f70.chunk.js",
-    "static/css/main.bd8cf3da.chunk.css",
+    "static/css/main.e89c882f.chunk.css",
     "static/js/main.40179d09.chunk.js"
   ]
 }

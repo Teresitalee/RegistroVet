@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Teresitalee/RegistroVet/precache-manifest.9bc5619f0fbafb27856fc823bb6b7d3c.js"
+  "/Teresitalee/RegistroVet/precache-manifest.f67a363eebb05086026d4007b45f1298.js"
 );
 
 self.addEventListener('message', (event) => {
